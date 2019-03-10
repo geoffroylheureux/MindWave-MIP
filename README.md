@@ -21,7 +21,7 @@ Télécharger [Zadig tool](https://zadig.akeo.ie/)
 Brancher l'adapteur et lancer Zadig  
 changer le pilote par celui proposé par défaut  
 
-Aller dans gestionnaire des périphériques et dans les propriétés de ce dernier puis détail et numéros d'identification du matériel  
+Aller dans gestionnaire des périphériques et dans les propriétés de ce dernier puis détails et numéros d'identification du matériel  
 
 Récupérer les 4 caractères après "VID" et les 4 après "PID  
 
