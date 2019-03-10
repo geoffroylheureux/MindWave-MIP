@@ -1,8 +1,14 @@
 # MindWave-MIP (sous Windows)
-Controler un robot MIP à l'aide de notre niveau de concentration donné à l'aide d'un casque MindWave.
+Controler un robot MIP à l'aide de notre niveau de concentration donné à l'aide d'un casque MindWave.  
+
+### Matériel requis :
+- Robot MIP WowWee
+- Casque Neurosky MicroWave
+- Adaptateur bluetooth USB
 ### Installation de NodeJS :
 
 Aller sur le site officiel de [NodeJS](https://nodejs.org/en/download/)  
+Il faut la version 8.12 de NodeJS et la version 6.4.1 de npm
 
 ### Installation des bibliothèques necessaires :
 
@@ -19,7 +25,7 @@ Aller dans gestionnaire des périphériques et dans les propriétés de ce derni
 
 Récupérer les 4 caractères après "VID" et les 4 après "PID  
 
-Maintenant aller dans le dossier node_modules puis dans le dossier bluetooth-hcu-socket puis lib puis le fichier usb.js  
+Maintenant aller dans le dossier node_modules puis dans le dossier bluetooth-hci-socket puis lib puis le fichier usb.js  
 Ajouter à la ligne 66 : || usb.findByIds(0x****,0x****) respectivement les 4 caractères de VID puis les 4 après PID  
 
 ### Installations des APIs  
