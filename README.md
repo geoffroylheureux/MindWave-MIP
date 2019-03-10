@@ -39,9 +39,16 @@ Ajouter un périphérique bluetooth avec Windows
 Une fois couplé, aller dans les paramètres bluetooth avancés et récupérer le port COM correspondant au casque  
 Modifier si nécessaire la ligne 19 de server.js 
 
-### Lancement du programme 
+### Lancement du programme :
 `cd chemin d'accès du projet`  
 `node server.js`  
 Lancer votre navigateur Web et aller sur localhost:8080
+
+### Commandes :
+Avec un niveau de concentration <10 le robot recule  
+Avec un niveau de concentration entre 10 et 30 le robot ne bouge pas  
+Avec un niveau de concentration entre 30 et 50 le robot avance  
+Avec un niveau de concentration entre 50 et 70 le robot avance sur un eplus longue distance  
+Avec un niveau de concentration >70 le robot tourne sur lui-même  
 
 
