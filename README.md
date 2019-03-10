@@ -36,6 +36,6 @@ Modifier si nécessaire la ligne 19 de server.js
 ### Lancement du programme 
 `cd chemin d'accès du projet`  
 `node server.js`  
-Aller dans votre navigateur Web et aller sur localhost:8080
+Lancer dans votre navigateur Web et aller sur localhost:8080
 
 
